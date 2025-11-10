@@ -2,6 +2,7 @@
     text-decoration: none;
     color:rgb(0, 110, 73);
    
+   
 }
 html, body{
     height:100%;
@@ -38,6 +39,9 @@ html, body{
     justify-content: space-between;
  
 }
+.left-logo{
+    padding-left: 20px;
+}
 
 
 .left-logo >img{
@@ -45,6 +49,7 @@ html, body{
     width:36px;
    background-color:aquamarine;
    border-radius:4px;
+
 
   padding:2px;
   border: 1px solid rgb(0, 168, 112);
@@ -63,6 +68,7 @@ html, body{
   flex-direction: row;
   gap:40px;
   font-size: 16px;
+  padding-right: 60px;
  
   font-weight: lighter;
 
@@ -80,8 +86,10 @@ html, body{
 .left-side > img{
  height: 600px;
  width:600px;
- padding:50px;
- border-radius: 60px;
+padding-left: 50px;
+padding-top: 50px;
+padding-right: 0px;
+ /* border-radius: 60px; */
 
  
 
@@ -90,6 +98,7 @@ html, body{
 .right-side{
     text-align: center;
     padding:60px;
+    
 }
 
 .right-side>h6{
@@ -180,6 +189,8 @@ hr{
 }
   
     
+
+
 
 
     
