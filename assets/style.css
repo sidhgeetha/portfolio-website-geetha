@@ -189,6 +189,18 @@ hr{
 }
   
     
+@media screen and (max-width: 900px) {
+  .header-section {
+    flex-direction:column;
+  }
+  .main-content{
+    flex-direction: column;
+  }
+  .bottom-links{
+    flex-direction: column;
+
+  }
+}
 
 
 
